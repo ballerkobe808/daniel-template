@@ -1,0 +1,59 @@
+
+<div class="spacer-50"></div>
+
+
+
+<div class="row">
+  <div class="col-md-4 offset-md-4">
+    <div class='login-element'>
+      <div class="login-container">
+
+        <!-- Template Header starts -->
+        <div class="login-box-header">
+          <!-- <img src="http://www.codershood.info/wp-content/uploads/2015/12/codershood.info-logo1.png"> -->
+        </div>
+        <!-- Template Header ends -->
+
+        <!-- Template Body starts -->
+        <div class="login-box-body">
+
+          <!-- Markup for getting Username starts -->
+          <div rowHeight="75px">
+            <div>
+              <mat-input-container class="justifier">
+                <input matInput placeholder="Enter your email" [formControl]="email" required>
+                <mat-error *ngIf="email.invalid">{{getErrorMessage(email)}}</mat-error>
+              </mat-input-container>
+            </div>
+          </div>
+          <!-- Markup for getting Username ends -->
+
+
+          <!-- Markup for getting Password starts -->
+          <div rowHeight="100px">
+            <div>
+              <mat-input-container class="justifier">
+                <input matInput placeholder="Enter your password" [type]="hide ? 'password' : 'text'" [formControl]="password" required>
+                <mat-icon matSuffix (click)="hide = !hide" class="clickable">{{hide ? 'visibility' : 'visibility_off'}}</mat-icon>
+                <mat-error *ngIf="password.invalid">{{getErrorMessage(password)}}</mat-error>
+              </mat-input-container>
+            </div>
+          </div>
+          <!-- Markup for getting Password ends -->
+
+
+
+          <button mat-raised-button class="login-button" (click)="login()">
+            <mat-icon>input</mat-icon> Login
+          </button>
+
+        </div>
+        <!-- Template Body ends -->
+
+      </div>
+
+    </div>
+  </div>
+</div>
+
+

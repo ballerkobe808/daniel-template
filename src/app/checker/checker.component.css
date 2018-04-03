@@ -1,0 +1,30 @@
+
+
+/* Styles specific to this module ----------------------------- */
+
+
+/* Main page title on top  */
+h1 {
+  color: #369;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 250%;
+}
+
+
+/* Center the column headings and make nicer looking spacing */
+th {
+  text-align: center;
+}
+.table td, .table th {
+  padding: 7px;
+}
+
+
+
+
+/* modal used for editing team members */
+.user-modal input {
+  margin-bottom: 10px;
+} 
+
+

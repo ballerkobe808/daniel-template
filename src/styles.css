@@ -1,0 +1,56 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+
+/* angular material theme */
+/* @import "~@angular/material/prebuilt-themes/daniel.css"; */
+/* @import "~@angular/material/prebuilt-themes/indigo-pink.css"; */
+/* @import '~@angular/material/prebuilt-themes/pink-bluegrey.css'; */
+/* @import '~@angular/material/prebuilt-themes/purple-green.css'; */
+/* @import '~@angular/material/prebuilt-themes/deeppurple-amber.css'; */
+
+
+
+
+/*mimic the look of an href*/
+.href {
+  color: #1E90FF !important;
+}
+
+.href:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+/* whenever you need spacing in the app, you can use these classes
+in a div. */
+.spacer-5 {
+  margin-bottom: 5px;
+  clear: both;
+}
+.spacer-10 {
+  margin-bottom: 10px;
+  clear: both;
+}
+.spacer-20 {
+  margin-bottom: 20px;
+  clear: both;
+}
+.spacer-30 {
+  margin-bottom: 30px;
+  clear: both;
+}
+.spacer-40 {
+  margin-bottom: 40px;
+  clear: both;
+}
+.spacer-50 {
+  margin-bottom: 50px;
+  clear: both;
+}
+
+
